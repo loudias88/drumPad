@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DrumPad</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <h1>DrumPad</h1>
+
+    <section class="teclado">
+        <button class="tecla tecla_kick1">
+            <span class="tecla_title">Kick 1</span>
+            <span class="tecla_number">7</span>
+        </button>
+
+        <button class="tecla tecla_clap">
+            <span class="tecla_title">Clap</span>
+            <span class="tecla_number">8</span>
+        </button>
+
+        <button class="tecla tecla_hihat">
+            <span class="tecla_title">Hihat</span>
+            <span class="tecla_number">9</span>
+        </button>
+
+
+        <button class="tecla tecla_kick2">
+            <span class="tecla_title">Kick 2</span>
+            <span class="tecla_number">4</span>
+        </button>
+
+        <button class="tecla tecla_splash">
+            <span class="tecla_title">Splash</span>
+            <span class="tecla_number">5</span>
+        </button>
+
+        <button class="tecla tecla_ride">
+            <span class="tecla_title">Ride</span>
+            <span class="tecla_number">6</span>
+        </button>
+
+
+        <button class="tecla tecla_snare">
+            <span class="tecla_title">Snare</span>
+            <span class="tecla_number">1</span>
+        </button>
+
+        <button class="tecla tecla_tic">
+            <span class="tecla_title">Tic</span>
+            <span class="tecla_number">2</span>
+        </button>
+
+        <button class="tecla tecla_tom">
+            <span class="tecla_title">Tom</span>
+            <span class="tecla_number">3</span>
+        </button>
+    </section>
+
+    <audio src="sounds/keyq.wav" id="som_tecla_kick1"></audio>
+    <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+    <audio src="sounds/keye.wav" id="som_tecla_hihat"></audio>
+    <audio src="sounds/keya.wav" id="som_tecla_kick2"></audio>
+    <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
+    <audio src="sounds/keyd.wav" id="som_tecla_ride"></audio>
+    <audio src="sounds/keyz.wav" id="som_tecla_snare"></audio>
+    <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+    <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
